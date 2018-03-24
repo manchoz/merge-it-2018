@@ -10,6 +10,13 @@
 
 *Sabato 24 Marzo 2018 - MERGE-it*
 
+---
+
+## Chi sono
+
+- Fondatore e CEO, Trampoline (2010)
+- Hotspot Wi-Fi Placejam
+- Consulenze IoT
 
 ---
 
@@ -17,6 +24,7 @@
 
 ### Agricoltura di Precisione (et al)
 
+- [Officina delle Soluzioni](http://officinasoluzioni.it/), Langhe e Roero
 - Cambiamenti climatici
 - Necessari rilevamenti ubiquiti
 - Stato dell'arte non adatto
@@ -27,6 +35,7 @@
 
 - Tecnologie di MCU a basso costo
 - Nuove tecnologie di trasmissione
+- No software open source
 
 ***
 
@@ -47,6 +56,16 @@
   - Operatori Nazionali
 - NB-IoT
   - 5G per reti di sensori
+
+---
+
+## Problemi - 0
+
+- Piattaforme IoT esclusivamente in cloud
+- AWS IoT, Azure Iot, GCP IoT, ecc.
+- Thingspeak, TheThings, ecc.
+- Complesse (Complicate)
+- Di chi sono i dati? Dove sono?
 
 ---
 
@@ -322,6 +341,7 @@ catalog.save_frame(device, dumps(frame))
 - Supporto multi-tenant e multi-user - WIP
 - Validazione dati - WIP
 - Autenticazione API - WIP
+- Deployment
 
 ---
 
@@ -333,10 +353,18 @@ catalog.save_frame(device, dumps(frame))
 
 ---
 
+### Workshop / Hands-on
+
+## Torino Hacknight 17 Aprile
+
+@Toolbox Torino
+
+---
+
 # Thanks
 
 http://github.com/kiotlog
 
-
 **Giampaolo Mancini - Trampoline**
 <giampaolo@trampolineup.com> - [@mancho_z](https://twitter.com/mancho_z)
+
