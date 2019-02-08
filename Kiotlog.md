@@ -1,9 +1,6 @@
 # Kiotlog
 
-### Internet delle Cose Open Source
-
-<!-- #### Una piattaforma per IoT LPWAN -->
-
+### Un toolkit open source per piattaforme IoT
 
 **Giampaolo Mancini - Trampoline**
 <giampaolo@trampolineup.com> - [@mancho_z](https://twitter.com/mancho_z)
@@ -35,7 +32,7 @@
 
 - Tecnologie di MCU a basso costo
 - Nuove tecnologie di trasmissione
-- No software open source
+- Open Source
 
 ***
 
@@ -57,6 +54,15 @@
 - NB-IoT
   - 5G per reti di sensori
 
+
+***
+
+### Stato dell'arte Open Source
+
+- Node-RED (Visual Design Tool, node)
+- InfluxDB (NoSQL)
+- Grafana
+
 ---
 
 ## Problemi - 0
@@ -65,7 +71,7 @@
 - AWS IoT, Azure Iot, GCP IoT, ecc.
 - Thingspeak, TheThings, ecc.
 - Complesse (Complicate)
-- Di chi sono i dati? Dove sono?
+- Di chi sono i dati? Dove sono? Come si accede?
 
 ---
 
@@ -192,7 +198,7 @@ typedef struct __attribute__ ((packed)) payload_bf {
 
 ---
 
-## Obiettivi
+## Obiettivi di Kiotlog
 
 - Catalogo di dispositivi e sensori
 - Decodifica dinamica con parsing out-of-band
@@ -202,9 +208,9 @@ typedef struct __attribute__ ((packed)) payload_bf {
 
 <!-- _slide: data-background="#ffffff" data-background-image="images/architettura_alpha.svg" data-background-size="cover" data-background-repeat="no-repeat" -->
 
-<!-- .slide: data-background="#ffffff" -->
+<!-- _slide: data-background="#ffffff" -->
 
-![Architettura](images/architettura_alpha.svg) <!-- .element: heigth="100%" width="100%" -->
+![Architettura](images/architettura.png) <!-- .element: heigth="45%" width="45%" -->
 
 ---
 
@@ -221,7 +227,7 @@ https://github.com/kiotlog/kiotlog
 
 ***
 
-### Stato dell'arte
+### Servizi implementati
 
 - Ricevitori SigFox, LoRaWAN, KiotlogSN
 - Catalogo e Decoder
